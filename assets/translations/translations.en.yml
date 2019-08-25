@@ -1,0 +1,696 @@
+# Home
+home:
+  title: Produktor - Product exchange and distribution application
+
+  # Assets
+  assets:
+    js:
+      # Crypto libraries bundle
+      - assets/js/crypto.bundle.min.js
+
+      # Event Dispatcher
+      - components/vis-ui.js/src/js/utils/EventDispatcher.js
+
+      # Lodash JS
+      - components/lodash/dist/lodash.min.js
+
+      # Modernizr
+      - assets/js/modernizr.min.js
+
+      # JQuery core 3.2.x
+      - components/material-kit/assets/js/core/jquery.min.js
+
+#      # Vue.js double binding JS template framework
+#      - components/vue/dist/vue.min.js
+
+      # Material Kit libs
+      - components/material-kit/assets/js/core/popper.min.js
+      - components/material-kit/assets/js/core/bootstrap-material-design.min.js
+      - components/material-kit/assets/js/material-kit.min.js
+
+      # Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/
+      - components/material-kit/assets/js/plugins/nouislider.min.js
+
+      # Notifications Plugin, fucll documentation here: http://bootstrap-notify.remabledesigns.com/
+      - components/bootstrap-notify/dist/bootstrap-notify.min.js
+
+      # Plugin for Date Time Picker and Full Calendar Plugin
+      # - components/material-kit/assets/js/plugins/moment.min.js
+
+      # Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker
+      # - components/material-kit/assets/js/plugins/bootstrap-datetimepicker.js
+
+      # JQuery plugins
+      - components/jquery-cookie/jquery.cookie.js
+
+      # Used in market
+      - assets/js/plugins/jquery.throttle.js
+      - assets/js/plugins/jquery.knob.js
+
+      - components/jquery.classycountdown/js/jquery.classycountdown.min.js
+
+      # Accordion carrusel
+      - components/swiper/dist/js/swiper.jquery.min.js
+
+      # Modern copy to clipboard. No Flash. Just 3kb gzipped.
+      - components/clipboardjs/dist/clipboard.min.js
+
+      # Form Data plugin
+      - components/vis-ui.js/src/js/utils/fn.formData.js
+
+      # QR Code generator
+      # https://github.com/davidshimjs/qrcodejs
+      - components/qrcodejs/qrcode.min.js
+
+      # Produktor stuff
+      - assets/js/Produktor-api.js
+
+  # Main menu (head and footer)
+  menu:
+    project:
+      title: Project
+      link: './#about'
+    roadmap:
+      title: Roadmap
+      link: './#roadmap'
+    documents:
+      title: Documentation
+      link: './#whitepaper'
+      menu:
+        whitepaper:
+          title: White Paper
+          link: '#whitepaper'
+        onepage:
+          title: One Page
+          link: '#whitepaper'
+        terms:
+          title: General Terms & Conditions
+          link: "javascript: Produktor.modal('accessit')"
+        privacy:
+          title: Privacy Policy
+          link: "javascript: Produktor.modal('accessit')"
+    team:
+      title: Team
+      link: './#team'
+    partners:
+      title: Partners
+      link: './#thisispartners'
+      menu:
+        unicorngo: &timur
+          link: https://unicorngo.io/en
+          image: assets/img/partners/unicorngo.png
+    blockchain:
+      title: Blockchain
+      link: './#mining'
+    market:
+      title: Market
+      link: market.php
+    faq:
+      title: FAQ
+      link: faq.php
+
+  info:
+    title: Produktor system easy cryptoPay
+    logo: assets/img/logos/antx_logo.png
+    email: info@Produktor
+    developer: *timur
+    version: 0.0.1 ALFA
+    pre-ico: &pre-ico-date
+      start-date:  Sep 01, 2018 00:00:00
+      end-date:  Sep 01, 2018 00:00:01
+
+# User
+user:
+
+  # Login
+  login:
+    submit:
+      title: Login
+
+  # Logout
+  logout:
+    title: Logout
+
+  # Register
+  register:
+    title: User registration
+    form:
+      name:
+        icon: face
+        placeholder: Your name
+        type: text
+      email:
+        icon: mail
+        placeholder: Email
+        type: text
+      password:
+        icon: lock_outline
+        placeholder: Password
+        type: password
+      password-repeat:
+        icon: lock_outline
+        placeholder: Repeat
+        type: password
+      acceptRules:
+        type: checkbox
+        title: |
+         I agree to the <a href="#" onclick="Produktor.modal('accessit'); return false" style="text-decoration: underline; color: #0c2249" target="_blank">terms and conditions</a>.
+        mandatory: true
+      submit:
+        type: submit
+        value: Create account
+
+  fogotpass:
+    title: Forgot password?
+    form:
+      email:
+        icon: mail
+        placeholder: Your email for recovery
+        type: text
+      submit:
+        title: Recover
+
+# Customer personal area
+cpanel:
+
+  assets:
+    js:
+      # Core JS Files
+      - components/material-kit/assets/js/core/jquery.min.js
+      - components/vue/dist/vue.min.js
+      - components/material-kit/assets/js/core/popper.min.js
+      - components/material-kit/assets/js/core/bootstrap-material-design.min.js
+      - cpanel/assets/js/plugins/perfect-scrollbar.jquery.min.js
+
+      # Plugin for Date Time Picker and Full Calendar Plugin
+      - components/material-kit/assets/js/plugins/moment.min.js
+      # Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker
+      - components/material-kit/assets/js/plugins/bootstrap-datetimepicker.js
+      # Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/
+      - components/material-kit/assets/js/plugins/nouislider.min.js
+      # Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select
+      - assets/js/plugins/bootstrap-selectpicker.js
+      # Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/
+      - assets/js/plugins/bootstrap-tagsinput.js
+      # Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput
+      - assets/js/plugins/jasny-bootstrap.min.js
+      # Plugins for presentation and navigation
+      - cpanel/assets/assets-for-demo/js/modernizr.js
+      # Material Dashboard Core initialisations of plugins and Bootstrap Material Design Library
+      - cpanel/assets/js/material-dashboard.js
+      # Dashboard scripts
+      # Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert
+      - components/core-js/client/core.js
+      # Library for adding dinamically elements
+      - cpanel/assets/js/plugins/arrive.min.js
+      # Forms Validations Plugin
+      - cpanel/assets/js/plugins/jquery.validate.min.js
+      # Charts Plugin, full documentation here: https://gionkunz.github.io/chartist-js/
+      - assets/js/plugins/chartist.min.js
+      # Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard
+      - cpanel/assets/js/plugins/jquery.bootstrap-wizard.js
+      # Notifications Plugin, full documentation here: http://bootstrap-notify.remabledesigns.com/
+      - components/bootstrap-notify/dist/bootstrap-notify.min.js
+      # Vector Map plugin, full documentation here: http://jvectormap.com/documentation/
+      - cpanel/assets/js/plugins/jquery-jvectormap.js
+      # Sliders Plugin, full documentation here: https://refreshless.com/nouislider/
+      # - cpanel/assets/js/plugins/nouislider.min.js
+      # Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select
+      - cpanel/assets/js/plugins/jquery.select-bootstrap.js
+      # DataTables.net Plugin, full documentation here: https://datatables.net/
+      - cpanel/assets/js/plugins/jquery.datatables.js
+      # Sweet Alert 2 plugin, full documentation here: https://limonte.github.io/sweetalert2/
+      - cpanel/assets/js/plugins/sweetalert2.js
+      # Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput
+      - assets/js/plugins/jasny-bootstrap.min.js
+      # Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar
+      - cpanel/assets/js/plugins/fullcalendar.min.js
+      - cpanel/assets/js/plugins/demo.js
+      - components/clipboardjs/dist/clipboard.min.js
+      - components/image-picker/image-picker/image-picker.min.js
+
+      # Simple event dispatcher
+      - components/vis-ui.js/src/js/utils/EventDispatcher.js
+      # A JavaScript utility library delivering consistency, modularity, performance, & extras.
+      - components/lodash/dist/lodash.min.js
+      # A tiny, secure JavaScript micro-templating script
+      - components/tim/tinytim.min.js
+
+      # HTML fn.formData() jQuery plugin
+      - components/vis-ui.js/src/js/utils/fn.formData.js
+      # QR code generator library
+      - components/qrcodejs/qrcode.min.js
+
+      # NPM crypto bundle
+      - assets/js/crypto.bundle.min.js
+
+      # Produktor JS API
+      - assets/js/Produktor-api.js
+
+  # Head title
+  title: Produktor system
+
+  # Notify
+  notify:
+    text: |
+      'Wellcome ' + Produktor.user.data.name + ',<br/> you have successfully logged in!'
+
+  # Right panel menu
+  menu:
+
+    myshops:
+      title:  My Stores & Items
+      icon:   book
+#      click: Produktor.notify("We develop this section. Stay in touch!")
+      views:
+        administration-panel:
+          title: Administration
+          size: 12
+          view: wallet/navigation
+          icon: tune
+          menu:
+            add-shop:
+              title: Add shop
+              click: window.open('http://Produktor.store/add_shop')
+
+        stores:
+          title: Shops
+          icon: shop
+          view: store-list
+          size: 12
+
+    edit-shop:
+      title: Edit shop
+      icon: book
+      visible: false
+      views:
+        - view: shop-edit
+          size: 12
+
+    buy-token:
+      title:  Balances
+      icon:   account_balance_wallet
+      views:
+        administration-panel:
+          title: Administration
+          size: 12
+          view: wallet/navigation
+          icon: chrome_reader_mode
+          menu:
+            create:
+              title: Create wallet
+              click: Produktor.modal('wallet/create')
+
+            import:
+              title: Import wallet
+              click: Produktor.modal('wallet/import')
+
+        balances:
+          size: 12
+          title: You balance
+          view: balance-list
+          # Update wallet balance in milliseconds (
+          # 1 second = 1000 ms
+          # 1 minute = 60000 ms
+          updateInterval: 60000
+
+#        txs:
+#          size: 12
+#          title: Transactions history
+#          view: transactions
+#          icon: swap_horiz
+
+    refer:
+      title:  Referral programs
+      icon:   person_add
+      views:
+
+        banner-link:
+          title: Referral link
+          view: referral/link
+          size: 7
+
+        qr-link:
+          title:  Referral QR
+          view:   referral/link-qr
+          size:   5
+          config:
+            vue: false
+
+#        users-activities:
+#          title: User activities
+#          view: referral/list
+#          size: 12
+
+        users-registered:
+          title: Registered
+          view: referral/registered
+          size: 12
+
+        banner-classic:
+          title: Banner 310x96
+          view: referral/banner
+          size: 12
+          image:
+            title:  Produktor system
+            geom:   310x96
+
+        banner-250:
+          title: Banner 250x250
+          view: referral/banner
+          size: 12
+          image:
+            title:  Produktor system
+            geom:   250x250
+
+        banner-468-60:
+          title: Banner 468x60
+          view: referral/banner
+          size: 12
+          image:
+            title: Produktor system
+            geom: 468x60
+
+        banner-300-250:
+          title: Banner 300x250
+          view: referral/banner
+          size: 12
+          image:
+            title:  Produktor system
+            geom:   300x250
+
+        banner-728x90:
+          title: Banner 728x90
+          view: referral/banner
+          size: 12
+          image:
+            title:  Produktor system
+            geom:   728x90
+
+
+    settings:
+      title:  Settings
+      icon:   settings
+      views:
+        profile:
+          view: user/profile
+          size: 12
+          checkbox: ~
+
+        password:
+          size: 4
+          view: card
+          icon: lock
+          title: Password
+          text: Used for login
+          button:
+            click: Produktor.modal("changePassword")
+            title: Change
+
+        email:
+          size: 4
+          view: card
+          icon: email
+          title: E-mail
+          text: Used for login
+          button:
+            #Produktor.modal('changeEmail', $($event.target).closest('.card').parent().data('info').button.form)
+            click: Produktor.modal('changeEmail')
+            title: Change
+
+        api:
+          size: 4
+          view: card
+          icon: memory
+          title: API
+          text: |
+            The creation of a secret API key to grant access
+            to commercial services in real-time CRAY through
+            the website by third parties.
+          button:
+            click: Produktor.modal('api')
+            title: Get
+
+# TODO: realize!
+#        authentification:
+#          title: Two-factor authentication
+#          view: vertical-card
+#          icon: done_all
+#          size: 3
+#          views:
+#            telegram:
+#              title: Аутентификация Telegram
+#              description: Используется для начала сеанса и изменения подтверждение пароля включения и снятия.
+#              button:
+#                view: button
+#                title: Activate
+#                click: Produktor.modal('authentification/telegram')
+#            sms:
+#              title: SMS authentication
+#              description: To remove, change password and security settings
+#              button:
+#                view: button
+#                title: Activate
+#                click: Produktor.modal('authentification/sms')
+#            google:
+#              title: Google Authentication
+#              description: Used to start a session and change the enable / disable password confirmation.
+#              button:
+#                view: button
+#                title: Activate
+#                click: Produktor.modal('authentification/google')
+
+
+    trading:
+      title:  Trading
+      icon:   trending_up
+      click: Produktor.notify("We develop this section. Stay in touch!")
+
+      views:
+        exchangeProduktor:
+          size: 5
+          view: graph
+          title: 'Produktor exchange - ETH/Produktor'
+
+        exchangeAntX:
+          size: 7
+          view: graph
+          title: 'AntX exchange - ETH/Produktor'
+
+        markets:
+          size: 11
+          title: Markets
+          icon: swap_horiz
+          view: market-table
+          offers:
+            favorite: Favorites
+            pair: Currency Pair
+            buy: Buy
+            sell: Sell
+            volume: Volume
+            change: Change
+            name: Name
+
+            Produktor:
+              - convertCurrency: USD
+                icon: star_border
+                offer: 0.012000
+                amount: 0.010000
+                sum: 90000000
+                dayDiff: +2.98
+              - convertCurrency: BTC
+                icon: star_border
+                offer: 0.00001000
+                amount: 0.00000900
+                sum: 90000000
+                dayDiff: +3.96
+            BTC:
+              - convertCurrency: USD
+                icon: star_border
+                offer: 0.012000
+                amount: 0.010000
+                sum: 90000000
+                dayDiff: +2.98
+              - convertCurrency: BTC
+                icon: star_border
+                offer: 0.00001000
+                amount: 0.00000900
+                sum: 90000000
+                dayDiff: +3.96
+            USD:
+              - convertCurrency: USD
+                icon: star_border
+                offer: 0.012000
+                amount: 0.010000
+                sum: 90000000
+                dayDiff: +2.98
+              - convertCurrency: BTC
+                icon: star_border
+                offer: 0.00001000
+                amount: 0.00000900
+                sum: 90000000
+                dayDiff: +3.96
+
+        buycrypto:
+          size: 10
+          title: Buy %s
+          icon: call_received
+          view:
+            favorite: Favorites
+            pair: Currency Pair
+            buy: Buy
+            sell: Sell
+            volume: Volume
+            change: Change
+            name: Name
+
+          # Здесь создаётся линк "offerTableColumns" на заданную структуру
+          offers: &offerTableColumns
+            balance: Available balance:
+            amount: Amount
+            minimum: Minimum:
+            price: Price
+            time: Time
+            available: Available deviation
+            total: Total
+            fee: Fee
+
+          botton:
+            buy: Buy %s
+            order: Do order
+
+          text:
+            buy1: Success
+            buy2: You successfully bought your CURRENCY!
+            order1: Success
+            order2: You successfully did order!
+
+
+        sellcrypto:
+          size: 6
+          title: Sell %s
+          icon: call_made
+          view: market-table
+
+          # А здесь линк "offerTableColumns" применяется (см. выше) и структура offerTableColumns дублируется
+          offers: *offerTableColumns
+
+          botton:
+            sell: Sell %s
+            order: Do order
+
+          text:
+            sell1: Success
+            sell2: You successfully sold your CURRENCY!
+            order1: Success
+            order2: You successfully did order!
+
+        tradingcrypto:
+          title: Trading
+          icon: swap_horiz
+          view: market-table
+          activeOrders:
+            name: My active orders
+            date: Date/Time
+            operation: Operation
+            price: Price
+            quantity: Quantity
+            amount: Amount
+            move: action
+            action:
+              sellAndBuy:
+                sell: Sell
+                buy: Buy
+              actionBottons:
+                edit: Edit
+                cancel: Cancel
+
+          tradingHistory:
+            name: MY TRADING HISTORY
+            date: Date/Time
+            operation: Operation
+            price: Price
+            quantity: Quantity
+            amount: Amount
+            action:
+              sellAndBuy:
+                sell: Sell
+                buy: Buy
+
+          orders:
+            buy:
+              title: Buy orders
+              icon: call_received
+              view: &market-table-view
+              name: market-table
+              table:
+                price: Price
+                quantity: Quantity
+                amount: Amount
+            sell:
+              title: Sell orders
+              icon: call_made
+              view: *market-table-view
+
+        tradingHistory:
+          title: Trade history
+          icon: swap_horiz
+          view:
+            name: market-table
+            table:
+              date: Date/Time
+              operation: Operation
+              price: Price
+              quantity: Quantity
+              move: Amount
+              amount:
+                sellAndBuy:
+                  sell: Sell
+                  buy: Buy
+
+    preico:
+      title:  preICO Produktor
+      icon: dashboard
+      click: Produktor.notify("We develop this section. Stay in touch!")
+      views:
+        info:
+          size: 5
+          view: token-info
+          title: Produktor coin
+          subTitle: pre-ICO 15.06.2018 - 15.08.2018
+
+        count-down:
+          size: 7
+          view: count-down
+          title: Timer
+          description: Until the end of pre-ICO remained
+          dates:
+            pre-ico: *pre-ico-date
+
+        own-token-summary:
+          size: 12
+          view: own-token-summary
+
+    store:
+      title:  WebStore
+      icon:   shop
+      click: location.href = "market.php#stores"
+
+    change-log:
+      title: Changes
+      icon: info
+      views:
+        - title: Change log
+          view: change-log
+          icon: settings
+          size: 12
+          config:
+            vue: false
+
+    exit:
+      title:  Exit
+      click:  Produktor.user.logout().done(function(){ location.reload(); })
+      icon:   power_settings_new
+      css:
+        color: '#f13750'
+
