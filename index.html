@@ -96,9 +96,15 @@
     .label-node.visible { opacity: 1; }
     .label-node.pinned { opacity: 1; color: #fff; border: 1px solid #444; }
   </style>
-  <script src="assets/js/ui.min.js"></script>
-  <script src="assets/js/renderers/CSS2DRenderer.js"></script>
-  <script src="assets/js/front.js" defer></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="assets/js/front.js"></script>
 </head>
 <body>
   <div id="canvas-wrap"></div>
