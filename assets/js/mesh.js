@@ -65,7 +65,7 @@ function createEdgeLines(edgePositions) {
   setPositionAttribute(geometry, edgePositions);
   return new THREE.LineSegments(
     geometry,
-    new THREE.LineBasicMaterial({ color: 0x444444, transparent: true, opacity: 0.35 }),
+    new THREE.LineBasicMaterial({ color: 0xb8c4d0, transparent: true, opacity: 0.72 }),
   );
 }
 
