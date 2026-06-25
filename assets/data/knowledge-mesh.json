@@ -1,0 +1,1057 @@
+{
+  "meta": {
+    "generated": "2026-06-25T13:46:43.669870+00:00",
+    "version": 1,
+    "source": "projects/knowledge-mesh-seed.yaml"
+  },
+  "categories": [
+    {
+      "id": "project",
+      "color": "#319177",
+      "label": "Projects"
+    },
+    {
+      "id": "technology",
+      "color": "#052f5f",
+      "label": "Technologies"
+    },
+    {
+      "id": "product",
+      "color": "#d5c67a",
+      "label": "Products"
+    },
+    {
+      "id": "domain",
+      "color": "#f1a208",
+      "label": "Domains"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "go-second-brain",
+      "label": "go-second-brain",
+      "type": "project",
+      "tags": [
+        "ai",
+        "rag",
+        "go",
+        "neo4j",
+        "qdrant",
+        "matrix"
+      ],
+      "period": "2025–present",
+      "url": "https://eslider.github.io/posts/go-second-brain-knowledge-graph-rag/",
+      "weight": 3
+    },
+    {
+      "id": "ai-fabric",
+      "label": "AI Fabric",
+      "type": "project",
+      "tags": [
+        "ai",
+        "go",
+        "gitea",
+        "devops",
+        "agents"
+      ],
+      "period": "2025–present",
+      "url": "https://eslider.github.io/posts/ai-fabric-agent-delivery/",
+      "weight": 3
+    },
+    {
+      "id": "aws-gcp-azure",
+      "label": "LAMBDA",
+      "type": "project",
+      "tags": [
+        "aws",
+        "gcp",
+        "azure",
+        "terraform",
+        "python",
+        "serverless"
+      ],
+      "period": "2026",
+      "url": "https://eslider.github.io/posts/multi-cloud-serverless-lambda/",
+      "weight": 2
+    },
+    {
+      "id": "go-onlyoffice",
+      "label": "go-onlyoffice",
+      "type": "project",
+      "tags": [
+        "go",
+        "onlyoffice",
+        "devops"
+      ],
+      "period": "2024–present",
+      "url": "https://eslider.github.io/posts/go-onlyoffice-oo-cli/",
+      "weight": 2
+    },
+    {
+      "id": "matrix-rtc-voip",
+      "label": "Matrix / WebRTC",
+      "type": "project",
+      "tags": [
+        "matrix",
+        "webrtc",
+        "livekit",
+        "jitsi",
+        "devops"
+      ],
+      "period": "2024–present",
+      "url": "https://eslider.github.io/posts/matrix-webrtc-voip-production/",
+      "weight": 3
+    },
+    {
+      "id": "nai-edelweiss",
+      "label": "NAI / Edelweiss",
+      "type": "project",
+      "tags": [
+        "healthcare",
+        "rag",
+        "webdav",
+        "go"
+      ],
+      "period": "2025–present",
+      "url": "https://eslider.github.io/posts/nai-edelweiss-healthcare-knowledge-base/",
+      "weight": 2
+    },
+    {
+      "id": "markets-platform",
+      "label": "Markets Platform",
+      "type": "project",
+      "tags": [
+        "go",
+        "react",
+        "kafka",
+        "trading"
+      ],
+      "period": "2024–2025",
+      "url": "https://eslider.github.io/posts/markets-platform-tradeplatform/",
+      "weight": 3
+    },
+    {
+      "id": "dyvenia",
+      "label": "Dyvenia",
+      "type": "project",
+      "tags": [
+        "python",
+        "data-engineering",
+        "postgresql",
+        "kubernetes"
+      ],
+      "period": "2023–2025",
+      "url": "https://eslider.github.io/posts/dyvenia-data-engineering/",
+      "weight": 3
+    },
+    {
+      "id": "immowelt",
+      "label": "Immowelt",
+      "type": "project",
+      "tags": [
+        "go",
+        "postgis",
+        "aws",
+        "geospatial"
+      ],
+      "period": "2019–2021",
+      "url": "https://eslider.github.io/posts/immowelt-geospatial-search/",
+      "weight": 3
+    },
+    {
+      "id": "mapbender-gis",
+      "label": "Mapbender",
+      "type": "project",
+      "tags": [
+        "php",
+        "postgis",
+        "gis",
+        "symfony"
+      ],
+      "period": "2014–2018",
+      "url": "https://eslider.github.io/posts/wheregroup-mapbender-gis/",
+      "weight": 3
+    },
+    {
+      "id": "dreamteam-hocr",
+      "label": "Dreamteam HOCR",
+      "type": "project",
+      "tags": [
+        "go",
+        "ocr",
+        "pdf"
+      ],
+      "period": "2022–2023",
+      "url": "https://eslider.github.io/posts/dreamteam-hocr-pipelines/",
+      "weight": 2
+    },
+    {
+      "id": "trading-algorithms",
+      "label": "Trading Algorithms",
+      "type": "project",
+      "tags": [
+        "go",
+        "react",
+        "trading",
+        "finance"
+      ],
+      "period": "2025–2026",
+      "url": "https://eslider.github.io/posts/trading-algorithms-binance-sync/",
+      "weight": 2
+    },
+    {
+      "id": "produktor-platform",
+      "label": "produktor.io platform",
+      "type": "project",
+      "tags": [
+        "k3s",
+        "ollama",
+        "onlyoffice",
+        "self-hosted"
+      ],
+      "period": "2021–present",
+      "url": "https://eslider.github.io/posts/produktor-platform-self-hosted-stack/",
+      "weight": 3
+    },
+    {
+      "id": "inventar-docs",
+      "label": "Inventar & Docs",
+      "type": "project",
+      "tags": [
+        "governance",
+        "gitea",
+        "markdown"
+      ],
+      "period": "2020–present",
+      "url": "https://eslider.github.io/posts/inventar-docs-governance/",
+      "weight": 2
+    },
+    {
+      "id": "mail-archive",
+      "label": "mail-archive",
+      "type": "project",
+      "tags": [
+        "go",
+        "duckdb",
+        "imap",
+        "ai"
+      ],
+      "period": "2025–2026",
+      "url": "https://eslider.github.io/posts/mail-archive-imap-search/",
+      "weight": 2
+    },
+    {
+      "id": "self-ca",
+      "label": "self-ca",
+      "type": "project",
+      "tags": [
+        "go",
+        "security",
+        "tls"
+      ],
+      "period": "2026",
+      "url": "https://eslider.github.io/posts/self-ca-private-certificates/",
+      "weight": 1
+    },
+    {
+      "id": "pack-cup",
+      "label": "Pack und Cup",
+      "type": "project",
+      "tags": [
+        "php",
+        "ecommerce",
+        "freelance"
+      ],
+      "period": "2016–2023",
+      "url": "https://eslider.github.io/posts/pack-cup-ecommerce-freelance/",
+      "weight": 2
+    },
+    {
+      "id": "grid-gmbh",
+      "label": "GRID GmbH",
+      "type": "project",
+      "tags": [
+        "php",
+        "cms",
+        "freelance"
+      ],
+      "period": "2006–2012",
+      "url": "https://eslider.github.io/posts/grid-gmbh-cms-clients/",
+      "weight": 2
+    },
+    {
+      "id": "produktor-map-ui",
+      "label": "produktor UI",
+      "type": "product",
+      "tags": [
+        "vue",
+        "maplibre",
+        "gis",
+        "product"
+      ],
+      "period": "2019–present",
+      "url": "https://eslider.github.io/posts/produktor-io-proprodukt/",
+      "weight": 2
+    },
+    {
+      "id": "vidarr",
+      "label": "vidarr",
+      "type": "product",
+      "tags": [
+        "telegram",
+        "ollama",
+        "ai",
+        "product"
+      ],
+      "period": "2024–present",
+      "weight": 2
+    },
+    {
+      "id": "oo-cli",
+      "label": "oo CLI",
+      "type": "product",
+      "tags": [
+        "go",
+        "onlyoffice",
+        "product"
+      ],
+      "period": "2024–present",
+      "url": "https://eslider.github.io/posts/go-onlyoffice-oo-cli/",
+      "weight": 2
+    },
+    {
+      "id": "office-stack",
+      "label": "OnlyOffice stack",
+      "type": "product",
+      "tags": [
+        "onlyoffice",
+        "minio",
+        "self-hosted"
+      ],
+      "period": "2021–present",
+      "weight": 2
+    },
+    {
+      "id": "go",
+      "label": "Go",
+      "type": "technology",
+      "tags": [
+        "language"
+      ],
+      "weight": 4
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "type": "technology",
+      "tags": [
+        "language"
+      ],
+      "weight": 4
+    },
+    {
+      "id": "postgresql",
+      "label": "PostgreSQL",
+      "type": "technology",
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "weight": 5
+    },
+    {
+      "id": "postgis",
+      "label": "PostGIS",
+      "type": "technology",
+      "tags": [
+        "database",
+        "gis"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "kubernetes",
+      "label": "Kubernetes",
+      "type": "technology",
+      "tags": [
+        "devops",
+        "orchestration"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "docker",
+      "label": "Docker",
+      "type": "technology",
+      "tags": [
+        "devops",
+        "containers"
+      ],
+      "weight": 4
+    },
+    {
+      "id": "terraform",
+      "label": "Terraform",
+      "type": "technology",
+      "tags": [
+        "devops",
+        "iac"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "aws",
+      "label": "AWS",
+      "type": "technology",
+      "tags": [
+        "cloud"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "gcp",
+      "label": "GCP",
+      "type": "technology",
+      "tags": [
+        "cloud"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "azure",
+      "label": "Azure",
+      "type": "technology",
+      "tags": [
+        "cloud"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "grafana",
+      "label": "Grafana",
+      "type": "technology",
+      "tags": [
+        "observability"
+      ],
+      "weight": 4
+    },
+    {
+      "id": "loki",
+      "label": "Loki",
+      "type": "technology",
+      "tags": [
+        "observability"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "minio",
+      "label": "MinIO",
+      "type": "technology",
+      "tags": [
+        "storage",
+        "s3"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "ollama",
+      "label": "Ollama",
+      "type": "technology",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "neo4j",
+      "label": "Neo4j",
+      "type": "technology",
+      "tags": [
+        "database",
+        "graph",
+        "ai"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "qdrant",
+      "label": "Qdrant",
+      "type": "technology",
+      "tags": [
+        "database",
+        "vector",
+        "ai"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "matrix",
+      "label": "Matrix",
+      "type": "technology",
+      "tags": [
+        "chat",
+        "realtime"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "livekit",
+      "label": "LiveKit",
+      "type": "technology",
+      "tags": [
+        "webrtc",
+        "realtime"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "jitsi",
+      "label": "Jitsi",
+      "type": "technology",
+      "tags": [
+        "webrtc",
+        "realtime"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "kafka",
+      "label": "Kafka",
+      "type": "technology",
+      "tags": [
+        "messaging",
+        "data"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "react",
+      "label": "React",
+      "type": "technology",
+      "tags": [
+        "frontend"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "vue",
+      "label": "Vue.js",
+      "type": "technology",
+      "tags": [
+        "frontend"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "maplibre",
+      "label": "MapLibre",
+      "type": "technology",
+      "tags": [
+        "gis",
+        "frontend"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "onlyoffice",
+      "label": "OnlyOffice",
+      "type": "technology",
+      "tags": [
+        "collaboration"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "gitea",
+      "label": "Gitea",
+      "type": "technology",
+      "tags": [
+        "git",
+        "devops"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "duckdb",
+      "label": "DuckDB",
+      "type": "technology",
+      "tags": [
+        "database",
+        "analytics"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "clickhouse",
+      "label": "ClickHouse",
+      "type": "technology",
+      "tags": [
+        "database",
+        "analytics"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "geospatial",
+      "label": "Geospatial",
+      "type": "domain",
+      "tags": [
+        "gis"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "data-engineering",
+      "label": "Data Engineering",
+      "type": "domain",
+      "tags": [
+        "data"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "type": "domain",
+      "tags": [
+        "ops"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "ai-rag",
+      "label": "AI / RAG",
+      "type": "domain",
+      "tags": [
+        "ai"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "realtime-voice",
+      "label": "Real-time Voice",
+      "type": "domain",
+      "tags": [
+        "webrtc"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "self-hosted",
+      "label": "Self-hosted",
+      "type": "domain",
+      "tags": [
+        "ops"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-commerce",
+      "type": "domain",
+      "tags": [
+        "business"
+      ],
+      "weight": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "aws-gcp-azure",
+      "target": "python",
+      "relation": "uses"
+    },
+    {
+      "source": "aws-gcp-azure",
+      "target": "terraform",
+      "relation": "uses"
+    },
+    {
+      "source": "aws-gcp-azure",
+      "target": "aws",
+      "relation": "uses"
+    },
+    {
+      "source": "aws-gcp-azure",
+      "target": "gcp",
+      "relation": "uses"
+    },
+    {
+      "source": "aws-gcp-azure",
+      "target": "azure",
+      "relation": "uses"
+    },
+    {
+      "source": "aws-gcp-azure",
+      "target": "duckdb",
+      "relation": "uses"
+    },
+    {
+      "source": "aws-gcp-azure",
+      "target": "devops",
+      "relation": "in"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "neo4j",
+      "relation": "uses"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "qdrant",
+      "relation": "uses"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "ollama",
+      "relation": "uses"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "matrix",
+      "relation": "uses"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "docker",
+      "relation": "uses"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "ai-rag",
+      "relation": "in"
+    },
+    {
+      "source": "go-second-brain",
+      "target": "self-hosted",
+      "relation": "in"
+    },
+    {
+      "source": "ai-fabric",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "ai-fabric",
+      "target": "gitea",
+      "relation": "uses"
+    },
+    {
+      "source": "ai-fabric",
+      "target": "docker",
+      "relation": "uses"
+    },
+    {
+      "source": "ai-fabric",
+      "target": "ai-rag",
+      "relation": "in"
+    },
+    {
+      "source": "ai-fabric",
+      "target": "devops",
+      "relation": "in"
+    },
+    {
+      "source": "matrix-rtc-voip",
+      "target": "matrix",
+      "relation": "uses"
+    },
+    {
+      "source": "matrix-rtc-voip",
+      "target": "livekit",
+      "relation": "uses"
+    },
+    {
+      "source": "matrix-rtc-voip",
+      "target": "jitsi",
+      "relation": "uses"
+    },
+    {
+      "source": "matrix-rtc-voip",
+      "target": "docker",
+      "relation": "uses"
+    },
+    {
+      "source": "matrix-rtc-voip",
+      "target": "realtime-voice",
+      "relation": "in"
+    },
+    {
+      "source": "matrix-rtc-voip",
+      "target": "self-hosted",
+      "relation": "in"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "kubernetes",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "ollama",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "onlyoffice",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "minio",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "grafana",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "gitea",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "self-hosted",
+      "relation": "in"
+    },
+    {
+      "source": "produktor-platform",
+      "target": "devops",
+      "relation": "in"
+    },
+    {
+      "source": "produktor-map-ui",
+      "target": "vue",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-map-ui",
+      "target": "maplibre",
+      "relation": "uses"
+    },
+    {
+      "source": "produktor-map-ui",
+      "target": "geospatial",
+      "relation": "in"
+    },
+    {
+      "source": "vidarr",
+      "target": "ollama",
+      "relation": "uses"
+    },
+    {
+      "source": "vidarr",
+      "target": "grafana",
+      "relation": "uses"
+    },
+    {
+      "source": "vidarr",
+      "target": "loki",
+      "relation": "uses"
+    },
+    {
+      "source": "office-stack",
+      "target": "onlyoffice",
+      "relation": "uses"
+    },
+    {
+      "source": "office-stack",
+      "target": "minio",
+      "relation": "uses"
+    },
+    {
+      "source": "oo-cli",
+      "target": "onlyoffice",
+      "relation": "uses"
+    },
+    {
+      "source": "oo-cli",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "dyvenia",
+      "target": "python",
+      "relation": "uses"
+    },
+    {
+      "source": "dyvenia",
+      "target": "postgresql",
+      "relation": "uses"
+    },
+    {
+      "source": "dyvenia",
+      "target": "kubernetes",
+      "relation": "uses"
+    },
+    {
+      "source": "dyvenia",
+      "target": "data-engineering",
+      "relation": "in"
+    },
+    {
+      "source": "immowelt",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "immowelt",
+      "target": "postgis",
+      "relation": "uses"
+    },
+    {
+      "source": "immowelt",
+      "target": "aws",
+      "relation": "uses"
+    },
+    {
+      "source": "immowelt",
+      "target": "vue",
+      "relation": "uses"
+    },
+    {
+      "source": "immowelt",
+      "target": "geospatial",
+      "relation": "in"
+    },
+    {
+      "source": "mapbender-gis",
+      "target": "postgis",
+      "relation": "uses"
+    },
+    {
+      "source": "mapbender-gis",
+      "target": "geospatial",
+      "relation": "in"
+    },
+    {
+      "source": "markets-platform",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "markets-platform",
+      "target": "react",
+      "relation": "uses"
+    },
+    {
+      "source": "markets-platform",
+      "target": "kafka",
+      "relation": "uses"
+    },
+    {
+      "source": "trading-algorithms",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "trading-algorithms",
+      "target": "react",
+      "relation": "uses"
+    },
+    {
+      "source": "nai-edelweiss",
+      "target": "neo4j",
+      "relation": "uses"
+    },
+    {
+      "source": "nai-edelweiss",
+      "target": "qdrant",
+      "relation": "uses"
+    },
+    {
+      "source": "nai-edelweiss",
+      "target": "ai-rag",
+      "relation": "in"
+    },
+    {
+      "source": "mail-archive",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "mail-archive",
+      "target": "duckdb",
+      "relation": "uses"
+    },
+    {
+      "source": "mail-archive",
+      "target": "qdrant",
+      "relation": "uses"
+    },
+    {
+      "source": "pack-cup",
+      "target": "ecommerce",
+      "relation": "in"
+    },
+    {
+      "source": "go-onlyoffice",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "go-onlyoffice",
+      "target": "onlyoffice",
+      "relation": "uses"
+    },
+    {
+      "source": "inventar-docs",
+      "target": "gitea",
+      "relation": "uses"
+    },
+    {
+      "source": "dreamteam-hocr",
+      "target": "go",
+      "relation": "uses"
+    },
+    {
+      "source": "postgresql",
+      "target": "data-engineering",
+      "relation": "in"
+    },
+    {
+      "source": "duckdb",
+      "target": "data-engineering",
+      "relation": "in"
+    },
+    {
+      "source": "clickhouse",
+      "target": "data-engineering",
+      "relation": "in"
+    },
+    {
+      "source": "grafana",
+      "target": "devops",
+      "relation": "in"
+    },
+    {
+      "source": "terraform",
+      "target": "devops",
+      "relation": "in"
+    },
+    {
+      "source": "docker",
+      "target": "devops",
+      "relation": "in"
+    },
+    {
+      "source": "maplibre",
+      "target": "geospatial",
+      "relation": "in"
+    },
+    {
+      "source": "postgis",
+      "target": "geospatial",
+      "relation": "in"
+    }
+  ]
+}

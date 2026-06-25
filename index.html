@@ -1,43 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Produktor.io</title>
+  <title>Produktor.io — Knowledge Mesh</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="Interactive knowledge mesh — projects, technologies, and stacks.">
   <style>
+    * { box-sizing: border-box; }
     body {
-      color: #808080;
-      font-family: Monospace;
+      color: #a0a0a0;
+      font-family: Monospace, ui-monospace, monospace;
       font-size: 13px;
-      text-align: center;
-
-      background-color: #000;
-      margin: 0px;
+      background: #000;
+      margin: 0;
       overflow: hidden;
     }
-
+    #canvas-wrap { position: fixed; inset: 0; }
     #info {
       position: absolute;
-      top: 0px;
-      width: 100%;
-      padding: 5px;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 12px 16px;
       z-index: 100;
+      text-align: left;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(0,0,0,.75) 0%, transparent 100%);
     }
-
-    a {
-
-      color: #0080ff;
+    #info a, #info button, #filters, #detail { pointer-events: auto; }
+    #info h1 {
+      margin: 0 0 4px;
+      font-size: 15px;
+      font-weight: normal;
+      color: #d5c67a;
     }
-
-    b {
-      color: lightgreen
+    #info .links { margin-bottom: 8px; }
+    #info a { color: #0080ff; text-decoration: none; }
+    #info a:hover { text-decoration: underline; }
+    #filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 8px 0;
+      max-width: 720px;
     }
+    .chip {
+      border: 1px solid #333;
+      background: rgba(20,20,20,.85);
+      color: #aaa;
+      padding: 3px 8px;
+      font: inherit;
+      font-size: 11px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    .chip.active { border-color: #319177; color: #8fd4bc; }
+    .chip.type-project { border-left: 3px solid #319177; }
+    .chip.type-technology { border-left: 3px solid #052f5f; }
+    .chip.type-product { border-left: 3px solid #d5c67a; }
+    .chip.type-domain { border-left: 3px solid #f1a208; }
+    #detail {
+      max-width: 420px;
+      min-height: 48px;
+      padding: 8px 10px;
+      margin-top: 6px;
+      background: rgba(10,10,10,.9);
+      border: 1px solid #222;
+      border-radius: 4px;
+      line-height: 1.45;
+    }
+    #detail b { color: lightgreen; }
+    #detail .muted { color: #666; font-size: 11px; }
+    #detail .tags span {
+      display: inline-block;
+      margin: 2px 4px 0 0;
+      padding: 1px 5px;
+      background: #111;
+      border: 1px solid #333;
+      font-size: 10px;
+      color: #888;
+    }
+    .label-node {
+      color: #e0e0e0;
+      font-family: Monospace, monospace;
+      font-size: 11px;
+      padding: 2px 4px;
+      background: rgba(0,0,0,.55);
+      border-radius: 2px;
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .15s;
+    }
+    .label-node.visible { opacity: 1; }
+    .label-node.pinned { opacity: 1; color: #fff; border: 1px solid #444; }
   </style>
-  <script type="application/javascript" src="assets/js/ui.min.js"></script>
-  <script src="assets/js/renderers/Projector.js"></script>
-  <script src="assets/js/renderers/CanvasRenderer.js"></script>
-  <script type="application/javascript" src="assets/js/front.js"></script>
+  <script src="assets/js/ui.min.js"></script>
+  <script src="assets/js/renderers/CSS2DRenderer.js"></script>
+  <script src="assets/js/front.js" defer></script>
 </head>
 <body>
+  <div id="canvas-wrap"></div>
+  <div id="info">
+    <h1>produktor.io — knowledge mesh</h1>
+    <div class="links">
+      <a href="https://eslider.github.io/" target="_blank" rel="noopener">portfolio</a>
+      · <a href="https://git.produktor.io" target="_blank" rel="noopener">gitea</a>
+      · <a href="https://github.com/eSlider" target="_blank" rel="noopener">github</a>
+    </div>
+    <div id="filters"></div>
+    <div id="detail"><span class="muted">Hover or click a node</span></div>
+  </div>
 </body>
 </html>
