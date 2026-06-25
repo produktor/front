@@ -135,11 +135,19 @@
     return true;
   }
 
+  function setBufferAttribute(geometry, name, attribute) {
+    if (typeof geometry.setAttribute === 'function') {
+      geometry.setAttribute(name, attribute);
+    } else {
+      geometry.addAttribute(name, attribute);
+    }
+  }
+
   function rebuildGraph() {
     nodeMeshes.forEach(function (m) {
       scene.remove(m);
-      var lbl = labelById.get(m.userData.id);
-      if (lbl) scene.remove(lbl);
+      if (m.geometry) m.geometry.dispose();
+      if (m.material) m.material.dispose();
     });
     nodeMeshes = [];
     nodeByMesh.clear();
@@ -191,7 +199,7 @@
     if (edgePositions.length) {
       var buf = new THREE.BufferAttribute(new Float32Array(edgePositions), 3);
       var lineGeo = new THREE.BufferGeometry();
-      lineGeo.setAttribute('position', buf);
+      setBufferAttribute(lineGeo, 'position', buf);
       lineSegments = new THREE.LineSegments(
         lineGeo,
         new THREE.LineBasicMaterial({ color: 0x444444, transparent: true, opacity: 0.35 })
