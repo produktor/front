@@ -25,11 +25,11 @@ jobs:
       - name: Validate entry files
         run: |
           test -f index.html
-          test -f assets/js/front.js
+          test -f assets/js/mesh.js
           test -f assets/data/knowledge-mesh.json
           test -f CNAME
           grep -q 'three@0.170.0' index.html
-          grep -q 'type="module"' index.html
+          grep -q 'assets/js/mesh.js' index.html
           ! grep -q 'ui.min.js' index.html
 
       - name: Validate knowledge mesh JSON
